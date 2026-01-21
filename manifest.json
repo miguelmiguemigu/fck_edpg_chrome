@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "fkc_edpg",
+  "version": "1.0",
+  "description": "Fck_edpg!",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}
